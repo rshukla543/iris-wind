@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Manrope:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500&display=swap');
+@import "tailwindcss";
+
+:root {
+  font-family: 'Manrope', system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+@theme {
+  --color-void: #070608;
+  --color-obsidian: #101012;
+  --color-charcoal: #191719;
+  --color-ivory: #F1ECE4;
+  --color-warm-mist: #D5CEC3;
+  --color-root: #5B111E;
+  --color-move: #A94718;
+  --color-rise: #B98227;
+  --color-feel: #285248;
+  --color-speak: #18576B;
+  --color-see: #30245F;
+  --color-become: #67428D;
+
+  --font-display: 'Cormorant Garamond', serif;
+  --font-body: 'Manrope', sans-serif;
+  --font-mono: 'Space Grotesk', monospace;
+}
